@@ -46,7 +46,7 @@
         <section class=" pt-12 space-y-8 pb-4">
       <div class="flex justify-between">
         <h3 class="text-[20px] font-semibold">Available Jobs</h3>
-        <p class="text-[14px] font-medium text-black/50">
+        <p class="text-[14px] font-bold text-black/50">
                <span id="interview-total-side-full" class="hidden">
                      <span id="interview-total-side">0 </span> of
                     </span>
@@ -59,6 +59,44 @@
                     <span id="total-side">0</span> jobs
                 </p>
             </div>
+
+
+
+                     <div id="nav-btn-container" class="flex gap-2">
+                <div><button id="all-filter-btn" onclick="toggle('all-filter-btn')"
+                        class="btn w-20 px-4 py-2 bg-primary border-none rounded text-base-100">All</button></div>
+                <div><button id="interview-filter-btn" onclick="toggle('interview-filter-btn')"
+                        class="btn w-20 px-4 py-2 bg-base-100 border-none rounded text-black/50">Interview</button>
+                </div>
+                <div><button id="rejected-filter-btn" onclick="toggle('rejected-filter-btn')"
+                        class="btn w-20 px-4 py-2 bg-base-100 border-none rounded text-black/50">Rejected</button>
+                </div>
+            </div>
+        </section>
+        <section id="interview-section" class="text-center space-y-5 hidden">
+            <div class="mx-auto w-[100px]">
+            </div>
+
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold">No jobs available</h2>
+                <p class="text-gray-500">Check back soon for new job opportunities</p>
+            </div>
+
+        </section>
+        <section id="rejected-section" class="text-center space-y-5 hidden">
+            <div class="mx-auto w-[100px]">
+            </div>
+
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold">No jobs available</h2>
+                <p class="text-gray-500">Check back soon for new job opportunities</p>
+            </div>
+
+        </section>
+
+
+
+
 
 
 
