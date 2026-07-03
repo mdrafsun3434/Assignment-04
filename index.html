@@ -22,6 +22,25 @@
         }
     </style>
 </head>
+<body class="bg-base-300 py-15">
+    <header id="header" class="w-[90%] sm:w-[80%] md:w-[70%] mx-auto space-y-8 ">
+        <h1 class="text-3xl font-bold">Job Application Tracker</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 ">
+            <div id="card1" class="bg-base-100 p-5 rounded-2xl space-y-2">
+                <p class="text-[14px] font-bold">Total</p>
+                <h3 id="total-heading" class="font-bold text-2xl">0</h3>
+            </div>
+            <div id="card2" class="bg-base-100 p-5 rounded-2xl space-y-2">
+                <p class="text-[14px] font-bold">Interview</p>
+                <h3 id="interview-total" class="font-bold text-2xl text-green-600">0</h3>
+                </div>
+              <div id="card3" class="bg-base-100 p-5 rounded-2xl space-y-2">
+                <p class="text-[14px] font-bold">Rejected</p>
+                <h3 id="rejected-total" class="font-bold text-2xl text-red-500">0</h3>
+            </div>
+        </div>
+        <hr class="text-base-300 my-8">
+    </header>
 
 
 
@@ -29,3 +48,4 @@
             <script src="machine.js"></script>
         </body>
 </html>
+
